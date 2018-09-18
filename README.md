@@ -7,6 +7,11 @@ hpka
 
 A hybrid qm and mm method for pKa prediction
 
+Added PSI4 dependencies
+
+TODO
+ Add MM calculations
+
 ### Copyright
 
 Copyright (c) 2018, samarjeet
