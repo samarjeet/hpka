@@ -1,0 +1,62 @@
+
+    -----------------------------------------------------------------------
+          Psi4: An Open-Source Ab Initio Electronic Structure Package
+                               Psi4 1.2.1 release
+
+                         Git: Rev {HEAD} 406f4de 
+
+
+    R. M. Parrish, L. A. Burns, D. G. A. Smith, A. C. Simmonett,
+    A. E. DePrince III, E. G. Hohenstein, U. Bozkaya, A. Yu. Sokolov,
+    R. Di Remigio, R. M. Richard, J. F. Gonthier, A. M. James,
+    H. R. McAlexander, A. Kumar, M. Saitow, X. Wang, B. P. Pritchard,
+    P. Verma, H. F. Schaefer III, K. Patkowski, R. A. King, E. F. Valeev,
+    F. A. Evangelista, J. M. Turney, T. D. Crawford, and C. D. Sherrill,
+    J. Chem. Theory Comput. 13(7) pp 3185--3197 (2017).
+    (doi: 10.1021/acs.jctc.7b00174)
+
+
+                         Additional Contributions by
+    P. Kraus, H. Kruse, M. H. Lechner, M. C. Schieber, and R. A. Shaw
+
+    -----------------------------------------------------------------------
+
+
+    Psi4 started on: Saturday, 01 September 2018 05:14PM
+
+    Process ID: 23383
+    Host:       m6.lobos.nih.gov
+    PSIDATADIR: /u/samar/.conda/envs/psi4env/share/psi4
+    Memory:     500.0 MiB
+    Threads:    1
+    
+  ==> Input File <==
+
+--------------------------------------------------------------------------
+molecule {
+0 1
+O 0.0 0.0 0.0
+H 1.0 0.0 0.0
+H 0.0 1.0 0.0
+}
+
+memory 8000 mb
+
+symmetry c1
+
+set {
+  basis cc-pvdz
+}
+--------------------------------------------------------------------------
+
+Traceback (most recent call last):
+  File "/u/samar/.conda/envs/psi4env/bin/psi4", line 269, in <module>
+    exec(content)
+
+SyntaxError: invalid syntax (<string>, line 29)
+
+    Psi4 stopped on: Saturday, 01 September 2018 05:14PM
+    Psi4 wall time for execution: 0:00:00.02
+
+*** Psi4 encountered an error. Buy a developer more coffee!
+*** Resources and help at github.com/psi4/psi4.
