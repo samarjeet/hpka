@@ -29,6 +29,13 @@ def canvas(with_attribution=True):
     return quote
 
 
+def usage():
+  print("3 stages of work : \n 1. QM level \n 2. Parameterization \n 3. Solvation free energy difference")
+
+def main():
+  usage()
+
 if __name__ == "__main__":
-    # Do something if this file is invoked on its own
-    print(canvas())
+  # Do something if this file is invoked on its own
+  #print(canvas())
+  main()
